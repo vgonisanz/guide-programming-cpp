@@ -9,6 +9,15 @@ he doesn't understand what really is. I'm creating this repository to improve my
 own abilities with cpp, and maybe this will help you to learn a bit. At least,
 I will group several interesting resources here.
 
+# Compiling
+
+```
+mkdir build && cd build
+cmake ..
+make -j4
+make install
+```
+
 # Resources
 
 * [Isocpp C++ Core Guidelines](http://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#main)
