@@ -23,7 +23,7 @@ make install
 * [Isocpp C++ Core Guidelines](http://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#main)
 * [Isocpp FAQ](https://isocpp.org/faq). Interesting resource to learn about standard stuff.
 * [c++ con clase](http://c.conclase.net/curso/index.php). In spanish, good place, I started learning here.
-* [MITx: 6.005.1x: Software Construction in Java](https://courses.edx.org/courses/course-v1:MITx+6.005.1x+3T2016/course/). Please, don't kill me, this course is on Java I know, but the language is not important here. This is a very good resource to learn about good practices programming and part of I learn was taken from here.
+* [MITx: 6.005.1x: Software Construction in Java (for newbies)](https://courses.edx.org/courses/course-v1:MITx+6.005.1x+3T2016/course/). Please, don't kill me, this course is on Java I know, but the language is not important here. This is a very good resource to learn about good practices programming and part of I learn was taken from here.
 * [Git tutorial](https://git-scm.com/book/en/v2). If you call developer yourself, then you **NEED** to use git (or other software for control version). Please, LEARN.
 * [Git methodology](http://nvie.com/posts/a-successful-git-branching-model/). If you know git commands, you still don't know how to work. Take a look to this methodology.
 
