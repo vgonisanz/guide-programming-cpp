@@ -9,7 +9,7 @@ int main()
     int badDayOfMonth = 53;
     int badYear = 3;
 
-    std::cout << "The good result is: " << dayOfYear(month, goodDayOfMonth, goodYear) << std::endl;
-    std::cout << "The bad result is: " << dayOfYear(month, badDayOfMonth, badYear) << std::endl;
+    //std::cout << "The good result is: " << dayOfYear(month, goodDayOfMonth, goodYear) << std::endl;
+    //std::cout << "The bad result is: " << dayOfYear(month, badDayOfMonth, badYear) << std::endl;
     return 0;
 }
