@@ -4,6 +4,7 @@
 
 class Foo
 {
+public:
     Foo() = default;
     ~Foo() = default;
 
@@ -33,7 +34,18 @@ int main()
         2
     };
 
-    //for
+    const int BIG_NUMBER = 100000;
+
+    for(int i = 0; i < BIG_NUMBER; i++)
+    {
+        Foo foo;            /* Bad practice -- Constructor and Destructor get called BIG_NUMBER times */
+        foo.doNothing();
+    }
+
+    Foo foo;            /* Good practice -- Constructor and Destructor get called 1 time and reuse object inside */
+    for(int i = 0; i < BIG_NUMBER; i++)
+        foo.doNothing();
+
     std::cout << "i was initializated AFTER declaration with value: " << i << std::endl;
 
     std::cout << "j was initializated in declaration with value: " << j << std::endl;
