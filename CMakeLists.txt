@@ -19,3 +19,4 @@ endif()
 # ------------------------------------------------------------------------------------------------------
 add_subdirectory(basics)
 add_subdirectory(vitals)
+add_subdirectory(tricky)
